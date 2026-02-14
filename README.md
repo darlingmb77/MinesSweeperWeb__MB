@@ -21,7 +21,7 @@ Project Proposal: Strategy-Based Minesweeper Web Application
   - [User Case 4 - Save Game Results](#title-user-case-4---save-game-results)
   - [User Case 5 - View Statistics Dashboard](#title-user-case-5---view-statistics-dashboard)
 - [Use Case Diagram](#use-case-diagram-)
-
+- [Software Requirements](#software-requirements)
 
 
 
@@ -174,5 +174,16 @@ Expected result: Player views performance analytics.
 <img width="573" height="445" alt="image" src="https://github.com/user-attachments/assets/ce6c33e8-ceca-404a-b2d5-f8094b37574a" />
 
 
-
+## **Software Requirements**
+| ID  | Requirement                                                                                                      |
+|-----|------------------------------------------------------------------------------------------------------------------|
+| R1  | The software shall start a new Minesweeper game by generating a fresh board after the player enters a username. |
+| R2  | The software shall let the player interact with the board by revealing tiles and placing flags according to game rules. |
+| R3  | The software shall track the game timer and display the final completion time when the game ends.               |
+| R4  | The software shall determine whether the player won or lost based on the revealed tiles and game logic.         |
+| R5  | The software shall send the completed game data—username, time, score, and outcome—to the backend API.          |
+| R6  | The backend API shall validate incoming game data and store it in the MySQL database.                           |
+| R7  | The software shall retrieve stored game statistics and display them on a dashboard for the player to review.    |
+| R8  | The software shall show a leaderboard ranking players based on their best times or scores.                      |
+| R10 | The software shall render the game board and dashboard in a responsive layout that works on standard desktop browsers. |
 
