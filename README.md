@@ -29,7 +29,7 @@ Project Proposal: Strategy-Based Minesweeper Web Application
 
 ## **Introduction**
 
-Given that this is my last year of college, I chose to proceed with the more exciting and fun coding application for this project.  I plan to create a Minesweeper web-based application that combines game logic, data persistence, and performance analysis for users. The purpose of this project is to develop a fun, interactive game that I get to work on throughout the semester by following the phases of the software development life cycle. By the end of this project, I should be able to implement tests and refine the project to become something I can be proud of for my college career, showcasing all that I have learned from Santa Fe College.
+This project is a web-based Minesweeper application that integrates interactive game logic, data persistence, and performance analysis. The system allows users to play Minesweeper through a browser-based interface while tracking scores and maintaining leaderboard data. The application is developed following the phases of the Software Development Life Cycle (SDLC), including planning, design, implementation, testing, and refinement. Core features include dynamic board generation, score calculation, user data management, and performance tracking. By the conclusion of the project, the system will demonstrate structured design, functional testing, and iterative improvements, reflecting the full-stack development skills and software engineering principles applied throughout its development.
 
 
 ## **Purpose of Software**
