@@ -22,8 +22,8 @@ Project Proposal: Strategy-Based Minesweeper Web Application
   - [User Case 5 - View Statistics Dashboard](#title-user-case-5---view-statistics-dashboard)
 - [Use Case Diagram](#use-case-diagram-)
 - [Software Requirements](#software-requirements)
-
-
+- [ERD Diagram](#erd)
+- [UML Diagram](#uml)
 
 
 
@@ -186,4 +186,14 @@ Expected result: Player views performance analytics.
 | R7  | The software shall retrieve stored game statistics and display them on a dashboard for the player to review.    |
 | R8  | The software shall show a leaderboard ranking players based on their best times or scores.                      |
 | R10 | The software shall render the game board and dashboard in a responsive layout that works on standard desktop browsers. |
+
+
+## **ERD**
+<img width="983" height="739" alt="image" src="https://github.com/user-attachments/assets/df91d1d1-3626-4aa4-9e97-f7a5eb3de437" />
+
+
+## **UML**
+<img width="720" height="665" alt="image" src="https://github.com/user-attachments/assets/60c30bfb-5ffc-4d6c-9ced-23bb98fedfde" />
+
+
 
