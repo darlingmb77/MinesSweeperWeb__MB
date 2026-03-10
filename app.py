@@ -1,0 +1,28 @@
+# from flask import Flask
+
+# app = Flask(__name__)
+
+# @app.route("/")
+# def home():
+#     return "Strategy Game API is running!"
+
+# if __name__ == "__main__":
+#     app.run(debug=True)
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return render_template("index.html")
+
+@app.route("/game")
+def game():
+    return render_template("game.html")
+
+@app.route("/leaderboard")
+def leaderboard():
+    return render_template("leaderboard.html")
+
+if __name__ == "__main__":
+    app.run(debug=True)

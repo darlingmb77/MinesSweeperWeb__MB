@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Minesweeper Game</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<h1>Game Board</h1>
+
+<table class="board">
+{% for row in range(8) %}
+<tr>
+    {% for col in range(8) %}
+    <td class="cell"></td>
+    {% endfor %}
+</tr>
+{% endfor %}
+</table>
+
+<a href="/">Back Home</a>
+
+</body>
+</html>
