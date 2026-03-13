@@ -1,0 +1,80 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Minesweeper Game</title>
+<link rel="stylesheet" href="static\style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Banner -->
+    <div class="banner">
+        <h1>Minesweeper</h1>
+    </div>
+
+    <!-- Left Column -->
+    <div class="scores">
+
+        <div class="score-box">
+            <h2>Top Scores</h2>
+            <ul id="top-scores">
+                <li>---</li>
+                <li>---</li>
+                <li>---</li>
+            </ul>
+        </div>
+
+        <div class="score-box">
+            <h2>Longest Times</h2>
+            <ul id="long-times">
+                <li>---</li>
+                <li>---</li>
+                <li>---</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Center Area -->
+    <div class="game-area">
+
+        <div class="player-input">
+            <label>Enter User Name</label>
+            <input type="text" id="username">
+            <button onclick="startGame()">Start Game</button>
+        </div>
+        <h2>How to Play Minesweeper</h2>
+
+            <div class="video-container">
+
+                <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/dvvrOeITzG8"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+                </iframe>
+
+            </div>
+
+    </div>
+
+</div>
+
+<script>
+
+function startGame(){
+    const name = document.getElementById("username").value
+    alert("Starting game for: " + name)
+}
+
+</script>
+
+</body>
+</html>
