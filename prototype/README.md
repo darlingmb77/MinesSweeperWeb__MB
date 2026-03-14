@@ -1,7 +1,7 @@
 # Minesweeper Strategy Game – Prototype
 
 ## Prototype Overview
-Covers the functionality of my web-based mine sweeper strategy game. Creating the prototype on HTML and CSS. Blinking the front end interface to the back end server logic and database interaction using Python flask SQLite database and JavaScript I was able to create this prototype as a the first building blocks of my game.
+Covers the functionality of my web-based mine sweeper strategy game. Creating the prototype using HTML and CSS. Blinking the front-end interface to the back-end server logic and database interaction using Python Flask, SQLite database, and JavaScript, I was able to create this prototype as the first building blocks of my game.
 ---
 ## Technologies Used
 - Python
@@ -39,27 +39,21 @@ Flask API endpoint- The leaderboard page dynamically loads and displays these re
 
 The prototype uses SQLite to store player score data.
 This will be how game results can later be recorded and displayed.
-
 ---
-
 ### Instructional Video Integration
 A YouTube video has been embedded in the leaderboard to enhance the web application's feel and help players understand how to play the game correctly. 
-
 ---
 
 ## Screenshots
 - Home page layout
 ![Home page](home_page.png)
 - Game interface
+On the game page, you will see the actual game board with a button to quit the application. This, of course, will expand and have more areas.
 ![Game Screen](game.png)
 - Leaderboard page
+The leaderboard page has the most done within the prototype. It has two columns, one for the top score and one for the top leaders. On the right side of the screen, there is a text box and a button where a player can enter a username and begin playing. It has a YouTube video embedded to show people how to play the Minesweeper game
 ![Leaderboard](leaderboard.png)
 - Database results
+This is a quick result of what the database looks like and shows how it is integrated inside the project already with SQLite
 ![Database](database.png)
 
----
-
-## Summary
-This prototype is the building block of my web-based application. With the SQLite as  foundational structure of the Minesweeper strategy game system. While the gameplay mechanics are still under development, the current prototype establishes the architecture necessary for database connectivity, user interaction, and front-end interface design.
-
-The system provides a strong starting point for further development into a fully functional educational web application.
