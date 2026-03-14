@@ -23,7 +23,6 @@ The prototype focuses on demonstrating the core architecture of the application,
 ## Current Prototype Features
 
 ### Game Interface Layout
-
 The prototype includes a basic user interface that reflects the planned layout of the final application.
 
 Features include:
@@ -37,46 +36,29 @@ Features include:
   - Longest Times
 
 This layout was designed using HTML and CSS and is structured to support future interactive gameplay logic.
-
 ---
 
 ### Leaderboard System
 
 The application includes a functioning backend API that retrieves leaderboard data from an SQLite database.
 
-Flask API endpoint:
-
-
-
-
-The leaderboard page dynamically loads and displays these records using JavaScript.
+Flask API endpoint- The leaderboard page dynamically loads and displays these records using JavaScript.
 
 ---
 
 ### Database Integration
 
 The prototype uses SQLite to store player score data.
-
-The database table stores:
-
-- Player name
-- Score
-- Date
-
-This demonstrates how game results can later be recorded and displayed.
+This will be how game results can later be recorded and displayed.
 
 ---
 
 ### Instructional Video Integration
-
-A YouTube tutorial video explaining how to play Minesweeper is embedded into the interface. This provides users with guidance before gameplay begins and demonstrates the ability to integrate external content into the application.
+A YouTube video has been embedded in the leaderboard to enhance the web application's feel and help players understand how to play the game correctly. 
 
 ---
 
 ## Screenshots
-
-(Add screenshots of:)
-
 - Home page layout
 ![Home page](home_page.png)
 - Game interface
@@ -85,21 +67,6 @@ A YouTube tutorial video explaining how to play Minesweeper is embedded into the
 ![Leaderboard](leaderboard.png)
 - Database results
 ![Database](database.png)
-
-These screenshots illustrate the visual structure and current functionality of the prototype.
-
----
-
-## Planned Future Development
-
-Future development will include:
-
-- Full Minesweeper gameplay logic
-- Timer tracking for longest game times
-- Score submission when a game is completed
-- Dynamic leaderboard updates
-- Improved user interface styling
-- Deployment of the application to a hosted web server
 
 ---
 
