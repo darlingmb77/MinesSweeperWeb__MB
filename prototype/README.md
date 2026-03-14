@@ -81,9 +81,13 @@ A YouTube tutorial video explaining how to play Minesweeper is embedded into the
 (Add screenshots of:)
 
 - Home page layout
+![Home page](home_page.png)
 - Game interface
+![Game Screen](game.png)
 - Leaderboard page
+![Leaderboard](leaderboard.png)
 - Database results
+![Database](database.png)
 
 These screenshots illustrate the visual structure and current functionality of the prototype.
 
