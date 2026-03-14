@@ -1,8 +1,5 @@
 # Minesweeper Strategy Game – Prototype
 
-Author: Sherri Brice  
-Date: 2026  
-
 ## Prototype Overview
 
 This prototype demonstrates the early structure and functionality of a web-based Minesweeper strategy game application. The goal of the project is to create a browser-based game that allows users to play Minesweeper while tracking scores and gameplay statistics through a connected database.
