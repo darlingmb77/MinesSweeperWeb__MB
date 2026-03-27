@@ -24,7 +24,7 @@ Project Proposal: Strategy-Based Minesweeper Web Application
 - [Software Requirements](#software-requirements)
 - [ERD Diagram](#erd)
 - [UML Diagram](#uml)
-
+- [Data Access Layer](#data-access-layer)
 
 
 ## **Introduction**
@@ -196,4 +196,5 @@ Expected result: Player views performance analytics.
 <img width="720" height="665" alt="image" src="https://github.com/user-attachments/assets/60c30bfb-5ffc-4d6c-9ced-23bb98fedfde" />
 
 
-
+## **Data Access Layer**
+<img width="1920" height="1080" alt="Data Access" src="https://github.com/user-attachments/assets/02065ad7-6656-4ea7-bc64-cb865f5661cf" />
