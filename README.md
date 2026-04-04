@@ -25,7 +25,7 @@ Project Proposal: Strategy-Based Minesweeper Web Application
 - [ERD Diagram](#erd)
 - [UML Diagram](#uml)
 - [Data Access Layer](#data-access-layer)
-
+- [Sprint 1 Plan](#sprint-1-plan)
 
 ## **Introduction**
 
