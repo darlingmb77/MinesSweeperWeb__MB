@@ -1,0 +1,45 @@
+Sprint 1 Plan
+Issues	User Story	Acceptance Criteria 	Tasks	Labels
+Issue 1: Create Game Board UI	As a player, I want to see a game board so that I can play Minesweeper.	•	Board renders in grid format
+•	Tiles are clickable	-[] Design grid layout
+-[] Implement tile component	Feature, P2
+Issue 2: Username Input	As a player, I want to enter a username so my score can be saved.	•	Input field appears before game starts
+•	Username is required	-[] Create input field
+-[] Validate input	Feature, P2
+Issue 3: Generate Random Mines	As a player, I want random mine placement so each game is unique.	•	Mines are randomly distributed
+•	Correct number of mines generated	User Story	
+
+Acceptance Criteria	Feature, P1
+Issue 4: Tile Reveal Logic	As a player, I want to click tiles to reveal them.	•	Clicking reveals tile value
+•	Empty tiles cascade open		Feature, P1
+Issue 5: Flagging System	As a player, I want to flag suspected mines.	•	Right-click places/removes flag		Feature, P2
+Issue 6: Game Win/Loss Detection	As a player, I want the game to detect win/loss.	•	Game ends on mine click
+•	Win when all safe tiles revealed		Feature, P1
+Issue 7: Timer Implementation	As a player, I want a timer to track performance.	•	Timer starts on first move
+•	Stops on game end		Feature, P2
+Issue 8: Score Calculation	As a player, I want a score so I can compare results.	•	Score based on time and tiles cleared		Feature, P2
+Issue 9: API Endpoint for Saving Results	As a system, I want to store game results.	•	POST endpoint accepts game data
+•	Data validated before saving		Backend, P1
+Issue 10: MySQL Database Setup	As a developer, I want a database to store results. 	•	Tables for Users, Scores, Leaderboard created		Backend, P1
+Issue 11: Save Game Results	As a player, I want my results saved.	•	Data stored after game ends		Backend, P1
+Issue 12: Leaderboard Display	As a player, I want to see top scores.	•	Displays ranked players		Feature, P2
+Issue 13: Statistics Dashboard	As a player, I want to view my performance.	•	Shows win rate, times, history		Feature, P2
+Issue 14: Responsive UI	As a player, I want the game to work on different screens.	•	Layout adjusts to screen size	User Story	
+
+Acceptance Criteria	UI, P3
+Issue 15: Error Handling (API)	As a developer, I want proper error handling.	•	API returns error messages		Defect, S2, P2
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+
