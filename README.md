@@ -198,3 +198,15 @@ Expected result: Player views performance analytics.
 
 ## **Data Access Layer**
 <img width="1920" height="1080" alt="Data Access" src="https://github.com/user-attachments/assets/02065ad7-6656-4ea7-bc64-cb865f5661cf" />
+
+
+## **Sprint 1 Plan**
+
+<img width="1901" height="884" alt="Screenshot 2026-04-04 091755" src="https://github.com/user-attachments/assets/ea71bd30-8908-44e3-bc82-eb342dc314f6" />
+
+<img width="1878" height="878" alt="Screenshot 2026-04-04 092115" src="https://github.com/user-attachments/assets/8cb91d8a-8443-40a5-84cf-dbc141b44d1d" />
+
+<img width="1843" height="857" alt="Screenshot 2026-04-04 092232" src="https://github.com/user-attachments/assets/e400c9c5-e215-472b-96a2-8382664e394e" />
+
+
+
